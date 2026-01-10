@@ -35,7 +35,7 @@ export default function Navbar() {
         >
             <div className="container mx-auto px-6 py-4 flex items-center justify-between">
                 <Link href="/" className="text-xl font-bold tracking-tighter text-gradient">
-                profile
+                    profile
                 </Link>
 
                 {/* Desktop Nav */}
@@ -61,7 +61,7 @@ export default function Navbar() {
                         <Github size={20} />
                     </a>
                     <a
-                        href="https://linkedin.com/in/sakshi-aggarwal"
+                        href="https://www.linkedin.com/in/sakshi-aggarwal-3149bb301/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-foreground transition-colors"
@@ -103,7 +103,7 @@ export default function Navbar() {
                                 <a href="https://github.com/Sakshii-27" target="_blank" rel="noreferrer">
                                     <Github className="text-muted-foreground" />
                                 </a>
-                                <a href="https://linkedin.com/in/sakshi-aggarwal" target="_blank" rel="noreferrer">
+                                <a href="https://www.linkedin.com/in/sakshi-aggarwal-3149bb301/" target="_blank" rel="noreferrer">
                                     <Linkedin className="text-muted-foreground" />
                                 </a>
                             </div>

@@ -6,7 +6,7 @@ export const resumeData = {
             "Full-Stack Developer in training with hands-on experience in building responsive web applications. Focused on writing efficient code, improving user experience, and growing through real-world development work.",
         email: "sakshiaggarwal2706@gmail.com",
         phone: "+91 8810327762",
-        linkedin: "https://linkedin.com/in/sakshi-aggarwal",
+        linkedin: "https://www.linkedin.com/in/sakshi-aggarwal-3149bb301/",
         github: "https://github.com/Sakshii-27",
         location: "Delhi, India",
     },
