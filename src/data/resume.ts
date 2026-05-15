@@ -3,7 +3,7 @@ export const resumeData = {
         name: "Sakshi Aggarwal",
         title: "Full-Stack Developer",
         summary:
-            "Full-Stack Developer in training with hands-on experience in building responsive web applications. Focused on writing efficient code, improving user experience, and growing through real-world development work.",
+            "CSE(AI) undergraduate, currently in the 2nd year, with experience in full-stack and AI-powered projects. Skilled at building scalable, production-ready applications through hackathons and internships, focusing on real-world impact.",
         email: "sakshiaggarwal2706@gmail.com",
         phone: "+91 8810327762",
         linkedin: "https://www.linkedin.com/in/sakshi-aggarwal-3149bb301/",
@@ -15,22 +15,23 @@ export const resumeData = {
             institution: "Indira Gandhi Delhi Technical University For Women",
             degree: "B.Tech in Computer Science Engineering (AI)",
             year: "Aug 2024 – May 2028",
+            grade: "CGPA: 8.69 / 10",
             location: "Delhi",
         },
         {
             institution: "Doon Public School (CBSE)",
             degree: "Class XII",
             year: "2024",
-            grade: "Percentage: 92.4%",
+            grade: "Class XII: 92.4% — Class X: 96.2%",
             location: "",
         },
     ],
     skills: {
-        languages: ["Python", "JavaScript", "C/C++", "SQL", "R"],
-        webDev: ["React.js", "Next.js", "Node.js", "Tailwind CSS"],
+        languages: ["Python", "JavaScript", "C++", "SQL", "R"],
+        webDev: ["React", "Next.js", "Node.js", "FastAPI", "Tailwind CSS"],
         databases: ["PostgreSQL", "Firebase", "MongoDB"],
-        concepts: ["DSA", "OOP", "System Design"],
-        devOps: ["Docker", "Git", "GitHub"],
+        concepts: ["Data structures", "Algorithms", "OOP", "DBMS"],
+        devOps: ["Git", "GitHub"],
         tools: ["Postman", "Jupyter Notebook", "Figma"],
     },
     experience: [
@@ -41,8 +42,8 @@ export const resumeData = {
             location: "Bengaluru, India",
             description: [
                 "Built scalable React components via React Query & Redux, improving maintainability and accelerating data handling.",
-                "Resolved UI/UX issues (tile selection, RFQ flows, validations) and implemented server-side sorting using TanStack Table for large datasets.",
-                "Optimized API performance by splitting heavy integrations into efficient endpoints, reducing initial rendering time.",
+                "Resolved UI/UX issues including tile selection, RFQ flows, and validations; implemented server-side sorting for 1000+ records, enhancing performance by ~25%.",
+                "Optimized APIs by splitting heavy integrations into efficient endpoints, reducing initial render time by ~40%.",
                 "Worked in an Agile environment, contributing to code reviews, testing, and deployment.",
             ],
             technologies: [
@@ -59,10 +60,10 @@ export const resumeData = {
     ],
     projects: [
         {
-            title: "MetroMind: AI-Powered Intelligent Depot Management System",
+            title: "MetroMind: AI-driven Metro Operations Platform (for Kochi Metro Rail Limited)",
             period: "December 2025",
             description:
-                "SIH 2025 Winner – Built a platform that reduced 2-hour manual scheduling to 5 minutes using Google OR-Tools. Implemented multiple AI agents for conversational interfaces and ML delay prediction roles.",
+                "SIH 2025 Winner – Built AI + CP-SAT multi-objective solvers using Google OR-Tools to automate train induction, standby, and crew rostering, cutting scheduling time from 2 hours to under 5 minutes.",
             technologies: [
                 "FastAPI",
                 "Python",
@@ -75,6 +76,7 @@ export const resumeData = {
                 "Leaflet",
                 "Resend",
                 "Firebase",
+                "Next-intl"
             ],
             links: {
                 code: "https://github.com/Sakshii-27/metromind",
@@ -82,15 +84,15 @@ export const resumeData = {
                 video: "",
             },
             highlights: [
-                "Reduced manual scheduling from 2 hours to 5 minutes.",
-                "Engineered full-stack FastAPI+Next.js system with RBAC, OTP login, multilingual support.",
+                "Orchestrated multiple AI agents for conversational interfaces, WhatsApp automation, and ML delay prediction models to forecast metro locations and arrival times with 89% accuracy.",
+                "Engineered full-stack FastAPI+Next.js system with RBAC, OTP login, multilingual support (Next-intl), and n8n automation.",
             ],
         },
         {
             title: "Complifi: AI-Powered Regulatory Compliance Platform",
             period: "August 2025",
             description:
-                "Engineered an end-to-end AI system for Indian enterprises to monitor regulations across FSSAI, RBI, SEBI, DGFT, and BIS, reducing manual tracking by automating amendment detection.",
+                "Designed an end-to-end AI system for Indian enterprises that monitors 5+ regulators (FSSAI, RBI, SEBI, DGFT, Gazette) to automate amendment detection and deliver personalized compliance insights.",
             technologies: [
                 "FastAPI",
                 "Next.js",
@@ -100,21 +102,22 @@ export const resumeData = {
                 "Groq/LLaMA",
                 "Python",
                 "Web Scraping",
+                "BeautifulSoup"
             ],
             links: {
                 code: "https://github.com/Sakshii-27/CompliFi",
                 demo: "https://compli-aktyo7qwo-sakshii-27s-projects.vercel.app",
             },
             highlights: [
-                "Architected scalable document pipeline using web scraping & secure cloud storage.",
-                "Implemented real-time alerting via a secure dashboard.",
+                "Developed a scalable backend with Python, FastAPI, PostgreSQL, and ChromaDB for RAG-based semantic retrieval.",
+                "Applied LangChain and open-source LLMs (Groq, Llama-3.3-70B) to automate compliance summarization, cutting manual review by 80%.",
             ],
         },
         {
             title: "Sweekaar: Accessible Daily Task Trainer for Neurodivergent Children",
             period: "April 2025",
             description:
-                "Designed therapeutic platform for children with autism, ADHD & cerebral palsy, using step-by-step task breakdowns to reduce caregiver burden by 40% through structured repetition training.",
+                "Engineered therapeutic platform for children with autism, ADHD & cerebral palsy, using step-by-step task breakdowns to reduce caregiver burden by 40% through structured repetition training.",
             technologies: [
                 "TensorFlow.js",
                 "Coco-SSD",
@@ -128,8 +131,8 @@ export const resumeData = {
                 video: "https://www.youtube.com/watch?v=YDuw_Pu1ESI",
             },
             highlights: [
-                "Engineered real-time object detection and gesture tracking pipeline.",
-                "Built responsive React frontend with WCAG 2.1 compliance.",
+                "Developed real-time object detection (Coco-SSD) and gesture tracking (MediaPipe) pipeline using TensorFlow.js.",
+                "Built responsive, WCAG 2.1-compliant React frontend to provide automated guidance and reduce cognitive load.",
             ],
         },
         {
@@ -173,6 +176,25 @@ export const resumeData = {
                 "Implemented a scenario-based risk classification system and provided step-by-step evacuation feedback.",
             ],
         },
+        {
+            title: "Open Source Contributions",
+            period: "Ongoing",
+            description:
+                "Active contributor to major open-source projects, focusing on distributed systems and cloud-native technologies.",
+            technologies: [
+                "C",
+                "C++",
+                "Rust",
+                "React",
+                "PostgreSQL",
+            ],
+            links: {
+                code: "https://github.com/Sakshii-27",
+            },
+            highlights: [
+                "Contributed to PostgreSQL & Cilium (CNCF), resolving issues in large-scale distributed systems.",
+            ],
+        },
     ],
     achievements: [
         {
@@ -205,6 +227,11 @@ export const resumeData = {
         },
     ],
     extracurricular: [
+        {
+            role: "Web Development Mentor",
+            organization: "GDG IGDTUW",
+            period: "Oct 2025 – Mar 2026",
+        },
         {
             role: "Web Developer",
             organization: "MSC IGDTUW",

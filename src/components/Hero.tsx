@@ -151,7 +151,7 @@ export default function Hero() {
                     </Link>
 
                     <Link
-                        href="/SAKSHI.pdf"
+                        href="/Sakshii.pdf"
                         target="_blank"
                         className="group px-10 py-5 rounded-full bg-white/5 backdrop-blur-xl text-foreground font-bold text-lg border-2 border-white/10 hover:border-white/20 hover:bg-white/10 shadow-xl transition-all hover:scale-105 flex items-center gap-2"
                     >
